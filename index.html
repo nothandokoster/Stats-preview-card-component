@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz@0,9..144;1,9..144&family=Inter:wght@400;700&family=Montserrat:ital,wght@0,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <div class="parent-box">
+      <div class="child-box-1">
+        <div class="header">
+          <h2>Get <a>insights</a> that help your business grow.</h2>
+        </div>
+        <div class="content">
+          <p>
+            Discover the benefits of data.analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+        </div>
+        <div class="statics">
+          <div class="stat-1">
+            <h5>10k+</h5>
+            <p class="p-stat">companies</p>
+          </div>
+          <div class="stat-2">
+            <h5>314</h5>
+            <p class="p-stat">templates</p>
+          </div>
+          <div class="stat-3">
+            <h5>12m+</h5>
+            <p class="p-stat">queries</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="child-box-2">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <source
+            media="(min-width: 375px)"
+            srcset="./images/image-header-mobile.jpg"
+          />
+          <img src="./images/image-header-desktop.jpg" alt="a cute kitten" />
+        </picture>
+        <div class="over-lay"></div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Nothando Koster</a>.
+    </div>
+  </body>
+</html>

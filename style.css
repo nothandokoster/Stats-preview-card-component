@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  width: 80%;
+}
+.parent-box {
+  display: flex;
+  flex-direction: row;
+}
+.child-box-1 {
+  color: white;
+  padding: 30px;
+  background-color: hsl(244, 38%, 16%);
+}
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.p-stat {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.stat-2 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.statics {
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+}
+a {
+  color: hsl(277, 64%, 61%);
+}
+.child-box-1,
+.child-box-2 {
+  position: relative;
+  display: inline-block;
+  flex: 1;
+}
+.child-box-2 picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.over-lay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(277, 64%, 61%, 0.575);
+}
+.attribution {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+/*styles for moble view*/
+
+@media all and (min-width: 375px) and (max-width: 480px) {
+  .parent-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .child-box-2 {
+    position: relative;
+    display: inline-block;
+  }
+}
